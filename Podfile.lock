@@ -37,7 +37,7 @@ DEPENDENCIES:
   - RxSwift (~> 4.2.0)
   - SVProgressHUD (~> 2.2.5)
   - Then (~> 2.3.0)
-  - ZFPlayer
+  - ZFPlayer (~> 3.1.4)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -72,6 +72,6 @@ SPEC CHECKSUMS:
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   ZFPlayer: 36fa2967a257c619b7e8b572c79de7b61adde3cd
 
-PODFILE CHECKSUM: 5b11b41563f5493795ee441bc70602263b9c3d13
+PODFILE CHECKSUM: 79891f40f6ec8b2de3ddc205fc794c927d9d8219
 
 COCOAPODS: 1.5.0

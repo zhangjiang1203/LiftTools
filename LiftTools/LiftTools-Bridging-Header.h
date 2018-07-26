@@ -14,6 +14,7 @@
 #import <MJRefresh/MJRefresh.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <iCarousel/iCarousel.h>
+#import <ZFPlayer/ZFPlayer.h>
 
 //#import "iCarousel.h"
 //#import <YYWebImage/YYWebImage.h>
