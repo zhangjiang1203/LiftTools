@@ -120,9 +120,9 @@
 		8864663621096625009D539F /* LiftTools */ = {
 			isa = PBXGroup;
 			children = (
-				889667502109AECE005576ED /* Amusement */,
-				8896674B2109AECE005576ED /* Coder */,
-				889667542109AECE005576ED /* LifeHelper */,
+				889667952109CBB7005576ED /* Amusement */,
+				889667912109CBB6005576ED /* Coder */,
+				889667992109CBB7005576ED /* LifeHelper */,
 				889667582109AECE005576ED /* Tools */,
 				889667592109AECE005576ED /* Base */,
 				8896675A2109AECE005576ED /* Library */,
@@ -138,37 +138,6 @@
 				8896678F2109B84F005576ED /* 公开API.json */,
 			);
 			path = LiftTools;
-			sourceTree = "<group>";
-		};
-		8896674B2109AECE005576ED /* Coder */ = {
-			isa = PBXGroup;
-			children = (
-				8896674C2109AECE005576ED /* Controller */,
-				8896674D2109AECE005576ED /* Model */,
-				8896674E2109AECE005576ED /* View */,
-			);
-			path = Coder;
-			sourceTree = "<group>";
-		};
-		8896674C2109AECE005576ED /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		8896674D2109AECE005576ED /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		8896674E2109AECE005576ED /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		8896674F2109AECE005576ED /* Extension */ = {
@@ -190,68 +159,6 @@
 				889667612109AF02005576ED /* ZJSubscript+Int.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		889667502109AECE005576ED /* Amusement */ = {
-			isa = PBXGroup;
-			children = (
-				889667512109AECE005576ED /* Controller */,
-				889667522109AECE005576ED /* Model */,
-				889667532109AECE005576ED /* View */,
-			);
-			path = Amusement;
-			sourceTree = "<group>";
-		};
-		889667512109AECE005576ED /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		889667522109AECE005576ED /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		889667532109AECE005576ED /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		889667542109AECE005576ED /* LifeHelper */ = {
-			isa = PBXGroup;
-			children = (
-				889667552109AECE005576ED /* Controller */,
-				889667562109AECE005576ED /* Model */,
-				889667572109AECE005576ED /* View */,
-			);
-			path = LifeHelper;
-			sourceTree = "<group>";
-		};
-		889667552109AECE005576ED /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		889667562109AECE005576ED /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		889667572109AECE005576ED /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		889667582109AECE005576ED /* Tools */ = {
@@ -299,6 +206,99 @@
 				8896678B2109B62E005576ED /* MBProgressHUD.bundle */,
 			);
 			path = "MBProgressHUD+Add";
+			sourceTree = "<group>";
+		};
+		889667912109CBB6005576ED /* Coder */ = {
+			isa = PBXGroup;
+			children = (
+				889667922109CBB6005576ED /* Controller */,
+				889667932109CBB6005576ED /* Model */,
+				889667942109CBB6005576ED /* View */,
+			);
+			path = Coder;
+			sourceTree = "<group>";
+		};
+		889667922109CBB6005576ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		889667932109CBB6005576ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		889667942109CBB6005576ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		889667952109CBB7005576ED /* Amusement */ = {
+			isa = PBXGroup;
+			children = (
+				889667962109CBB7005576ED /* Controller */,
+				889667972109CBB7005576ED /* Model */,
+				889667982109CBB7005576ED /* View */,
+			);
+			path = Amusement;
+			sourceTree = "<group>";
+		};
+		889667962109CBB7005576ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		889667972109CBB7005576ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		889667982109CBB7005576ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		889667992109CBB7005576ED /* LifeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8896679A2109CBB7005576ED /* Controller */,
+				8896679B2109CBB7005576ED /* Model */,
+				8896679C2109CBB7005576ED /* View */,
+			);
+			path = LifeHelper;
+			sourceTree = "<group>";
+		};
+		8896679A2109CBB7005576ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8896679B2109CBB7005576ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8896679C2109CBB7005576ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A27B45C49AA4F8FD654CD614 /* Pods */ = {
@@ -625,7 +625,10 @@
 				DEVELOPMENT_TEAM = CLFR894M64;
 				INFOPLIST_FILE = LiftTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zitang.LiftTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LiftTools/LiftTools-Bridging-Header.h";
@@ -645,7 +648,10 @@
 				DEVELOPMENT_TEAM = CLFR894M64;
 				INFOPLIST_FILE = LiftTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zitang.LiftTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LiftTools/LiftTools-Bridging-Header.h";
