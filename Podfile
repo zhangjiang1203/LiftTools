@@ -24,5 +24,6 @@ target 'LiftTools' do
   pod 'FLEX' ,'~> 2.4.0', :configurations => ['Debug'] #查看网络请求 UI图层 和日志的类库
   pod 'SVProgressHUD','~> 2.2.5'
   pod 'iCarousel','~> 1.8.3'
+  pod 'ZFPlayer','~> 3.1.4'
 
 end
