@@ -11,7 +11,7 @@ import RxCocoa
 import RxSwift
 
 class ZJBaseViewController: UIViewController {
-
+    // 全局对RxSwift的释放
     let disposeBag = DisposeBag()
     
     

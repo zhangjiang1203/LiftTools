@@ -17,6 +17,12 @@ target 'LiftTools' do
   #pod 'Hero', '~> 0.3.6'           #视图控制器过渡动画的库
   #pod 'SnapKit', '~> 3.2.0'        #OC中同Masonry类库 自动布局框架
   pod 'HandyJSON','~> 4.1.1'     #JSON解析类库
+  
+  
+  #OC类库
+  pod 'MJRefresh', '~> 3.1.15.3'
   pod 'FLEX' ,'~> 2.4.0', :configurations => ['Debug'] #查看网络请求 UI图层 和日志的类库
+  pod 'SVProgressHUD','~> 2.2.5'
+  pod 'iCarousel','~> 1.8.3'
 
 end

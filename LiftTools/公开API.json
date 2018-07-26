@@ -1,0 +1,221 @@
+{
+	"variables": [],
+	"info": {
+		"name": "公开API",
+		"_postman_id": "91184b58-6950-747c-1696-788158f5d51e",
+		"description": "",
+		"key":"270da763a7ca0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "根据语言和star查看github上的排名",
+			"request": {
+				"url": "https://api.github.com/search/repositories?q=language:Objective-C&sort=stars&page=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "github根据库名查询类库",
+			"request": {
+				"url": "https://api.github.com/search/repositories?q=afn&sort=stars&page=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "根据车型查询汽车信息",
+			"request": {
+				"url": "http://apicloud.mob.com/car/seriesname/query?key={{key}}}&name=AC Schnitzer X5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询所有的汽车品牌",
+			"request": {
+				"url": "http://apicloud.mob.com/car/brand/query?key={{key}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询车型的详细信息",
+			"request": {
+				"url": "http://apicloud.mob.com/car/series/query?key={{key}}&cid=104013",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询菜谱的所有分类",
+			"request": {
+				"url": "http://apicloud.mob.com/v1/cook/category/query?key={{key}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "根据标签ID/菜谱名称查询菜谱详情",
+			"request": {
+				"url": "http://apicloud.mob.com/v1/cook/menu/search?key={{key}}&cid=0010001007&page=1&size=20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "根据菜谱id查询菜谱详情",
+			"request": {
+				"url": "http://apicloud.mob.com/v1/cook/menu/query?key={{key}}&id=00100010650000040356",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询身份证的基本信息",
+			"request": {
+				"url": "http://apicloud.mob.com/idcard/query?key={{key}}&cardno=411528199012185092",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询微信精选的所有类别",
+			"request": {
+				"url": "http://apicloud.mob.com/wx/article/category/query?key={{key}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "微信精选 通过分类id（cid）进行查询",
+			"request": {
+				"url": "http://apicloud.mob.com/wx/article/search?key={{key}}&cid=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "实时票房查询",
+			"request": {
+				"url": "http://apicloud.mob.com/boxoffice/day/query?key={{key}}&area=CN",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "查询地区，目前仅支持内地 CN"
+			},
+			"response": []
+		},
+		{
+			"name": "周票房查询",
+			"request": {
+				"url": "http://apicloud.mob.com/boxoffice/week/query?key={{key}}&area=CN",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "查询地区，目前仅支持内地 CN和香港HK"
+			},
+			"response": []
+		},
+		{
+			"name": "周末票房查询",
+			"request": {
+				"url": "http://apicloud.mob.com/boxoffice/weekend/query?key={{key}}&area=US",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "查询地区，目前仅支持内地和北美"
+			},
+			"response": []
+		},
+		{
+			"name": "根据城市名称查询天气",
+			"request": {
+				"url": "http://apicloud.mob.com/v1/weather/query?key={{key}}&city=通州&province=北京",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "查询美图信息",
+			"request": {
+				"url": "https://www.apiopen.top/meituApi?page=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "科目一考试考题",
+			"request": {
+				"url": "http://apicloud.mob.com/tiku/kemu1/query?key={{key}}&page=1&size=20",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "科目四练习题库",
+			"request": {
+				"url": "http://apicloud.mob.com/tiku/kemu4/query?key={{key}}&page=1&size=40",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "今日油价查询",
+			"request": {
+				"url": "http://apicloud.mob.com/oil/price/province/query?key={{key}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
