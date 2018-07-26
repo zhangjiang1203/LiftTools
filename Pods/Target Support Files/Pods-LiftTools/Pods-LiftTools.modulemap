@@ -1,0 +1,6 @@
+framework module Pods_LiftTools {
+  umbrella header "Pods-LiftTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
