@@ -34,17 +34,17 @@ extension UIButton{
         
         switch style {
         case .top:
-            imageEdgeInsets = UIEdgeInsetsMake(-labelHeight-space/2.0, 0, 0, -labelWidth)
-            labelEdgeInsets = UIEdgeInsetsMake(0, -imageWidth, -imageHeight-space/2.0, 0)
+            imageEdgeInsets = UIEdgeInsets.init(top: -labelHeight-space/2.0, left: 0, bottom: 0, right: -labelWidth)
+            labelEdgeInsets = UIEdgeInsets.init(top: 0, left: -imageWidth, bottom: -imageHeight-space/2.0, right: 0)
         case .left:
-            imageEdgeInsets = UIEdgeInsetsMake(0, -space/2.0, 0, space/2.0)
-            labelEdgeInsets = UIEdgeInsetsMake(0, space/2.0, 0, -space/2.0)
+            imageEdgeInsets = UIEdgeInsets.init(top: 0, left: -space/2.0, bottom: 0, right: space/2.0)
+            labelEdgeInsets = UIEdgeInsets.init(top: 0, left: space/2.0, bottom: 0, right: -space/2.0)
         case .bottom:
-            imageEdgeInsets = UIEdgeInsetsMake(0, 0, -labelHeight-space/2.0, -labelWidth)
-            labelEdgeInsets = UIEdgeInsetsMake(-imageHeight-space/2.0, -imageWidth, 0, 0)
+            imageEdgeInsets = UIEdgeInsets.init(top: 0, left: 0, bottom: -labelHeight-space/2.0, right: -labelWidth)
+            labelEdgeInsets = UIEdgeInsets.init(top: -imageHeight-space/2.0, left: -imageWidth, bottom: 0, right: 0)
         case .right:
-            imageEdgeInsets = UIEdgeInsetsMake(0, labelWidth+space/2.0, 0, -labelWidth-space/2.0)
-            labelEdgeInsets = UIEdgeInsetsMake(0, -labelWidth-space/2.0, 0, labelWidth+space/2.0)
+            imageEdgeInsets = UIEdgeInsets.init(top: 0, left: labelWidth+space/2.0, bottom: 0, right: -labelWidth-space/2.0)
+            labelEdgeInsets = UIEdgeInsets.init(top: 0, left: -labelWidth-space/2.0, bottom: 0, right: labelWidth+space/2.0)
         }
         self.titleEdgeInsets = labelEdgeInsets
         self.imageEdgeInsets = imageEdgeInsets

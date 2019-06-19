@@ -96,14 +96,14 @@ extension String {
     /// 计算文字的宽度
     func calCharacterWith(font:UIFont, height:CGFloat) -> CGFloat {
         
-        let width = self.boundingRect(with: CGSize.init(width: CGFloat.greatestFiniteMagnitude, height:height), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font:font], context: nil).size.width+5
+        let width = self.boundingRect(with: CGSize.init(width: CGFloat.greatestFiniteMagnitude, height:height), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font:font], context: nil).size.width+5
         return width
     }
     
     /// 计算文字的高度
     func calCharacterWith(font:UIFont, width:CGFloat) -> CGFloat {
         
-        let height = self.boundingRect(with: CGSize.init(width: width, height:CGFloat.greatestFiniteMagnitude), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font:font], context: nil).size.height
+        let height = self.boundingRect(with: CGSize.init(width: width, height:CGFloat.greatestFiniteMagnitude), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font:font], context: nil).size.height
         return height
     }
     
