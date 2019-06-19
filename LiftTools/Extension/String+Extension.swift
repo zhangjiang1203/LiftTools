@@ -85,7 +85,7 @@ extension String {
         if self.count != 18 { return false }
         let startIndex = self.index(self.startIndex, offsetBy: self.count-2)
         let endIndex = self.index(startIndex, offsetBy: 1)
-        let result = self.substring(with: startIndex..<endIndex)
+        let result = String(self[startIndex..<endIndex])
         if Int(result)! % 2 == 0 {
             return true
         }else{

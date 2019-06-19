@@ -52,15 +52,11 @@ public extension UIView{
     var zj_centerX:CGFloat{
         get{
             return self.center.x
-        }set{
-            self.zj_centerX = newValue
         }
     }
     var zj_centerY:CGFloat{
         get{
             return self.center.y
-        }set{
-            self.zj_centerY = newValue
         }
     }
     // MARK: - 尺寸裁剪相关
